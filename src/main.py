@@ -9,4 +9,5 @@ if __name__ == '__main__':
         for j in range(0, size):
             g.addEdge(i, j, adjacency[i][j])
 
-    g.KruskalMST()
+    result = g.KruskalMST()
+    print(result)
